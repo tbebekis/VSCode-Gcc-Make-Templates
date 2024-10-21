@@ -33,7 +33,7 @@
             "includePath": [
                 "/usr/include",
                 "/usr/local/include",
-                "${workspaceFolder}"
+                "${workspaceFolder}/**"
             ],
             "browse": {
                 "path": [
