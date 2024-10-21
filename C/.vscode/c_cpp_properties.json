@@ -5,18 +5,18 @@
     "configurations": [
         {
             "name": "Win32",
-            "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
             "cStandard": "gnu23",
             "cppStandard": "gnu++23",
             "intelliSenseMode": "linux-gcc-x64",
             "includePath": [
 				"${workspaceFolder}/**",
-                "C:\\msys64\\ucrt64\\include"
+                "C:/msys64/ucrt64/include"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "C:\\msys64\\ucrt64\\include"
+                    "C:/msys64/ucrt64/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },

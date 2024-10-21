@@ -18,12 +18,12 @@
             "linux": {
                 "MIMode": "gdb",
                 "miDebuggerPath": "/usr/bin/gdb",
-                "program": "${workspaceFolder}\\bin\\${workspaceFolderBasename}"              
+                "program": "${workspaceFolder}/bin/${workspaceFolderBasename}"              
             },
 			"windows": {			                	
                 "MIMode": "gdb",
-				"miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
-                "program": "${workspaceFolder}\\bin\\${workspaceFolderBasename}.exe"
+				"miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+                "program": "${workspaceFolder}/bin/${workspaceFolderBasename}.exe"
 			},            
             "setupCommands": [
                 {
@@ -47,12 +47,12 @@
             "linux": {
                 "MIMode": "gdb",
                 "miDebuggerPath": "/usr/bin/gdb",
-                "program": "${workspaceFolder}\\bin\\${workspaceFolderBasename}"              
+                "program": "${workspaceFolder}/bin/${workspaceFolderBasename}"              
             },
 			"windows": {				
                 "MIMode": "gdb",
-				"miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
-                "program": "${workspaceFolder}\\bin\\${workspaceFolderBasename}.exe"
+				"miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+                "program": "${workspaceFolder}/bin/${workspaceFolderBasename}.exe"
 			},
             "setupCommands": [
                 {
