@@ -1,0 +1,4 @@
+    
+The c_cpp_properties.json file stores IntelliSense configuration settings
+SEE: https://code.visualstudio.com/docs/cpp/configure-intellisense
+SEE: https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference#_example-of-variables

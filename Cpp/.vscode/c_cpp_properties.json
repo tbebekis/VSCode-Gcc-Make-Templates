@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/ucrt64/include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "C:/msys64/ucrt64/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "enableConfigurationSquiggles": true,
+    "version": 4
+}

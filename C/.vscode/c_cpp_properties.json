@@ -1,0 +1,57 @@
+{
+    // This file stores IntelliSense configuration settings
+    // SEE: https://code.visualstudio.com/docs/cpp/configure-intellisense
+    // SEE: https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference#_example-of-variables
+    "configurations": [
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "includePath": [
+				"${workspaceFolder}/**",
+                "C:\\msys64\\ucrt64\\include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:\\msys64\\ucrt64\\include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]        
+        },
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "UNICODE",
+                "_UNICODE"                
+            ]
+        }
+    ],
+    "enableConfigurationSquiggles": true,
+    "version": 4
+    
+}
