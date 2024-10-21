@@ -15,7 +15,7 @@
             ],
             "browse": {
                 "path": [
-                    "${workspaceFolder}",
+                    "${workspaceFolder}/**",
                     "C:/msys64/ucrt64/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true
@@ -35,13 +35,13 @@
             "includePath": [
                 "/usr/include",
                 "/usr/local/include",
-                "${workspaceFolder}"
+                "${workspaceFolder}/**"
             ],
             "browse": {
                 "path": [
                     "/usr/include",
                     "/usr/local/include",
-                    "${workspaceFolder}"
+                    "${workspaceFolder}/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true
             },
