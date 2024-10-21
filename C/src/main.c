@@ -5,7 +5,7 @@
 int main() {
    GetInteger();
  
-    printf("Hit any key + Enter to close");
+    printf("Hit any key + Enter to close. ");
     int c;
     scanf("%d", &c);
  
