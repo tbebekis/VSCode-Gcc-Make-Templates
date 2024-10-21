@@ -4,10 +4,10 @@
 
 int main() {
    GetInteger();
-
+ 
+    printf("Hit any key + Enter to close");
     int c;
-    //printf("Hit any key to close");
-    //scanf("%d", &c);
-    c = getchar(); 
+    scanf("%d", &c);
+ 
     return 0;
 }
