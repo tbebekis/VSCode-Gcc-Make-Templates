@@ -23,8 +23,11 @@ int main() {
 	SS << "You typed: " << i;
 	WriteLine(SS.str()); 
 
+#ifdef _WIN32 
 	WriteLine("Press a key to terminate");
 	cin.get();								// stop and wait for a keystroke
 	cin.get();
+#endif 
+
 	return 0;
 }
